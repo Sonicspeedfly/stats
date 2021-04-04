@@ -1,4 +1,4 @@
-module github.com/Sonicspeedfly/stats
+module github.com/Sonicspeedfly/stats/v1
 
 go 1.16
 
