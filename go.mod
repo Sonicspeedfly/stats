@@ -1,5 +1,5 @@
-module github.com/Sonicspeedfly/stats
+module github.com/Sonicspeedfly/stats/v2
 
 go 1.16
 
-require github.com/Sonicspeedfly/bank v0.0.0-20210404190724-d6497151fe7f // indirect
+require github.com/Sonicspeedfly/bank/v2 v2.0.0
