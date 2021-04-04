@@ -1,7 +1,7 @@
 package stats
 
 import (
-	"github.com/Sonicspeedfly/bank/pkg/types"
+	"github.com/Sonicspeedfly/bank/v2/pkg/types"
 	"fmt"
 )
 
@@ -10,10 +10,12 @@ func ExamleTotalInCategory() {
 		{
 			Amount: 10_000,
 			Category: "a",
+			Status: "OK",
 		},
 		{
 			Amount: 15_000,
 			Category: "a",
+			Status: "INPROGRESS",
 		},
 		{
 			Amount: 10_000,
